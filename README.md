@@ -11,6 +11,8 @@
 
 * [Slide Images](https://github.com/004Ajay/Seminar-GAN/tree/main/IMAGES)
 
+* [Presentation Slides](google.com)
+  
 <!-- * [Presentation Slide](change link) -->
 
 ---
