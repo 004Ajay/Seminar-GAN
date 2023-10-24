@@ -5,13 +5,15 @@
 
 <!-- ---------------------------------------------------  -->
 
-## Folders
+* [Final Presentation](https://github.com/004Ajay/Seminar-GAN/blob/main/GAN%20Seminar.pdf)
 
-* [Reference PDFs](https://github.com/004Ajay/Seminar-GAN/tree/main/PDFs)
+<br>
 
-* [Slide Images](https://github.com/004Ajay/Seminar-GAN/tree/main/IMAGES)
+### Folders
 
-* [Presentation Slides](google.com)
+* [Reference PDFs](https://github.com/004Ajay/Seminar-GAN/tree/main/Research%20Papers)
+
+* [Slide Images](https://github.com/004Ajay/Seminar-GAN/tree/main/Images)
   
 <!-- * [Presentation Slide](change link) -->
 
