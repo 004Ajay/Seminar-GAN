@@ -5,16 +5,16 @@
 
 <!-- ---------------------------------------------------  -->
 
-* [Final Presentation](https://github.com/004Ajay/Seminar-GAN/blob/main/GAN%20Seminar.pdf)
+* [Final Presentation](https://github.com/004Ajay/Seminar-GAN/blob/main/Presentations/GAN%20Seminar.pdf)
 
 <br>
 
 ### Folders
 
-* [Reference PDFs](https://github.com/004Ajay/Seminar-GAN/tree/main/Research%20Papers)
+* [Images](https://github.com/004Ajay/Seminar-GAN/tree/main/Images)
 
-* [Slide Images](https://github.com/004Ajay/Seminar-GAN/tree/main/Images)
-  
-<!-- * [Presentation Slide](change link) -->
+* [Presentations](https://github.com/004Ajay/Seminar-GAN/tree/main/Presentations)
 
----
+* [Research Papers](https://github.com/004Ajay/Seminar-GAN/tree/main/Research%20Papers)
+
+<!-- * [Report](https://github.com/004Ajay/Seminar-GAN/tree/main/Report) -->
