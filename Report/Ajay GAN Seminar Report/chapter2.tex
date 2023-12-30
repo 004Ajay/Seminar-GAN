@@ -1,0 +1,87 @@
+\chapter{Literature Review}
+
+\setcounter{equation}{0}
+
+\noindent
+The literature review conducted on 25 research papers on GANs has provided a comprehensive understanding of the evolution, applications, and challenges inherent in this field of study. Spanning from the influential work by \mbox{Ian J. Goodfellow} in 2014 to the development of diverse GAN variants such as Deep Convolutional GAN(DCGAN) and Variational Autoencoders GAN(VAEGAN), the review contains the thorough study of applications of GAN variants across disciplines like art, medicine, and data generation. Therefore the literature survey acts as a roadmap for comprehending the intricacies, practical implementations, and prospective research trajectories within the GAN landscape.
+
+% --------------------------------------------------------
+
+\section{Evolution of GANs}
+
+\subsection{Early Generative Models: Foundations Preceding GANs}
+
+There were many models, which tried to explore the Generative AI landscape. But three of the most important works (Probabilistic Models) were Variational Autoencoders (VAEs)\cite{VAE}, Restricted Boltzmann Machines (RBMs)\cite{RBM}, and Markov Chain Monte Carlo (MCMC)\cite{MCMC} Methods.
+
+\noindent
+VAEs were used in generating realistic images by learning a latent space representation of images. By sampling points from this learned latent space, VAEs could produce new, yet similar, images. For instance, in generating images of human faces, digits, or scenes, VAEs provided a method to create novel images with controlled variations.
+
+\clearpage
+
+\noindent
+RBMs were employed in collaborative filtering tasks within recommendation systems. By learning the latent features of users and items, RBMs could make recommendations based on a user's preferences and historical data, suggesting movies, products, or content similar to those a user had interacted with previously.
+
+\noindent
+MCMC methods were extensively used for Bayesian parameter estimation in complex models. They provided a means to sample from the posterior distribution over model parameters, enabling probabilistic reasoning and uncertainty estimation in various domains such as finance, epidemiology, and ecological modeling.
+
+% --------------------------------------------------------
+
+\subsection{Emergence of GANs: Transformative Innovations}
+
+Ian J. Goodfellow et al. \cite{GAN_Main} proposed \textit{“Generative Adversarial Nets”} in June 2014. Goodfellow introduced the concept of GANs, which was based on the field of Generative AI. Thereby after two years, Goodfellow alone presented a tutorial at Neural Information Processing Systems on GANs, where the tutorial delved more into the mathematical and practical sides of GANs which is explained in the paper \textit{“NIPS 2016 Tutorial: Generative Adversarial Networks”}\cite{Nips_GAN} in December 2016.
+
+\noindent
+Mehdi et al. has proposed a new architecture for GANs \textit{“Conditional Generative Adversarial Nets (CGAN)”}\cite{CGAN} in November 2014. Where they added an extra term to the general equation of GANs to gain more control over the output of GAN.
+
+\noindent
+After the very introduction of GAN Architecture, Radford et al. proposed \textit{"Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks"}\cite{DCGAN} in November 2015, Where they bridged the gap of using CNN for unsupervised machine learning tasks by introducing a new GAN architecture named Deep Convolutional Generative Adversarial Networks.
+
+\noindent
+During the years 2016-2020, many GAN architectures were introduced (about 500+), and most of them solved some or many problems with the traditional GAN, and others created new systems that were powered by GANs, for example, Head Models\cite{Head_Model}. 
+
+\clearpage
+
+% --------------------------------------------------------
+
+\subsection{Post-GAN Era: Evolving Generative Models}
+
+Zhang et al. wrote \textit{"Self-Attention Generative Adversarial Networks"}\cite{SAGAN} in June 2019. In this paper, the authors integrated self-attention mechanisms within the framework of GAN, aiming to enhance the model's ability to capture long-range dependencies in images. By enabling GANs to focus on relevant image regions at different scales simultaneously, which facilitated more globally consistent image synthesis. 
+
+\noindent
+Jiang et al. \textit{"TransGAN: Two Pure Transformers Can Make One Strong GAN, and That Can Scale Up"}\cite{TransGAN} in December 2021. In this paper, the authors tried to get rid of CNN from GAN Architecture and replace it with Transformers, a neural network architecture that powers most Large Language Models nowadays.
+
+\noindent
+Zhaoqing et al. wrote a survey paper \textit{“Recent Progress on Generative Adversarial Networks (GANs): A Survey”}\cite{Recent_Progress} in  March 2019, where they described various GAN architectures with their performance analyses.
+
+\noindent
+Der-Lor et al. have proposed \textit{TwinGAN: Twin Generative Adversarial Network for Chinese Landscape Painting Style Transfer}\cite{TwinGAN} which is trained to imitate multiple styles of Chinese landscape paintings. The TwinGAN network has successfully imitated five styles of Chinese landscape paintings.
+
+% \clearpage
+
+\noindent
+Anders et al. have proposed \textit{Autoencoding beyond pixels using a learned similarity metric}\cite{VAEGAN} in June 2023. The paper pioneers a novel amalgamation of Variational Autoencoders and GAN, amplifying image generation and reconstruction by emphasizing feature-wise errors using the GAN discriminator. It surpasses prior approaches that rely on handcrafted similarity metrics or conditional networks by introducing a learned similarity measure and a unified training framework.
+
+\section{Generative Technologies in Medical Imaging}
+
+S Band et al. wrote a systematic review paper of interpretability methods titled \textit{Application of explainable artificial intelligence in medical health: A systematic review of interpretability methods}\cite{XAI}. 
+
+\clearpage
+
+In that paper \cite{XAI} the main DL methods discussed were:
+
+\begin{itemize}
+    \item Gradient-Weighted Class Activation Mapping (Grad-CAM): Class Activation Mapping (CAM) utilizes gradient data from the last convolutional layer in a CNN to generate a basic map of significant areas in an image, correlating with the classification. Grad-CAM extends CAM's scope, applicable to various CNN architectures without the need for retraining.\cite{Grad_CAM}
+    \item NeuroXAI: A CNN is employed to analyze brain images, generating convolutional feature maps and specific output computations. These calculations include visualizations depicting clusters associated with tumor classification and segmentation.
+    \item  Contextual Importance And Utility (CIU): It uses the concept of attribute importance and its reliance on other attributes’ value. It considers the correlation of the importance of an attribute. When a combination of features is appropriate or causes interaction on prediction, it is interpreted as feature interaction, which leads to higher-level explanations.
+\end{itemize}
+
+\noindent
+In the main reference of this study, GAN was tested for use as Explainable AI(XAI) method in medical imaging tasks by exploring the learned features(feature maps) of CNN by Hasenstab et al.in their paper \textit{“Feature Interpretation Using Generative Adversarial Networks (FIGAN): A Framework for Visualizing a CNN’s Learned Features”}\cite{FIGAN} in January 2023.
+
+\section{Summary}
+
+\noindent
+The evolution of Generative Adversarial Networks commenced with foundational models VAEs, RBMs, and MCMC methods, which laid the groundwork for generative AI. The introduction of GANs in 2014, lead to diverse GAN architectures like CGAN and DCGAN, addressing many limitations.
+
+\noindent
+In medical imaging, GANs play a crucial role in interpretability methods. Techniques like Grad-CAM and FIGAN are employed to understand the learned features of CNNs. This exploration aids in contributing to XAI methodologies.

@@ -18,5 +18,3 @@
 * [Images](https://github.com/004Ajay/Seminar-GAN/tree/main/Images)
 
 * [Presentations](https://github.com/004Ajay/Seminar-GAN/tree/main/Presentations)
-
-* [Research Papers](https://github.com/004Ajay/Seminar-GAN/tree/main/Research%20Papers)

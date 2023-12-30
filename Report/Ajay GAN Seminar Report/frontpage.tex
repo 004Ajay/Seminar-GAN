@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   This is frontpage.tex file needed for the dmathesis.cls file.  You    %
+%  have to  put this file in the same directory with your thesis files.   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%           The title page           %%%%%%%%%%%%%%%%%%%%%%%  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{roman}
+%\pagenumbering{arabic}
+
+\setcounter{page}{1}
+
+\fancypagestyle{plain}{%
+\fancyfoot[L]{\emph{Department of Artificial Intelligence and Data Science, SJCET Palai}} % except the center
+\fancyfoot[R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+}
+
+\newpage
+
+\thispagestyle{empty}
+\begin{center}
+ 
+{\normalsize \bf SEMINAR REPORT}\\
+ON\\
+\vspace*{0.2 cm}
+{\huge \bf Interpreting Learned Features of}\\ % Exploring
+\vspace{2mm}
+{\huge \bf Convolutional Neural Networks}\\
+\vspace{2mm}
+{\huge \bf using}\\
+\vspace{2mm}
+{\huge \bf Generative Adversarial Networks}
+\vspace{0.5 cm}
+\large Submitted by\\
+{ \bf Ajay T Shaju (SJC20AD004)}\\[-0.6mm]
+{\large to\\[-0.6mm] the APJ Abdul Kalam Technological University\\[-0.6mm] in partial fulfillment of the requirements for the award of the degree\\[-0.6mm] of\\[-0.6mm] Bachelor of Technology\\[-0.6mm] in\\[-0.6mm] {\bf Artificial Intelligence and Data Science}}
+
+ \begin{center}
+ \includegraphics[width=0.3\textwidth]{Images/SJCET_logo.png}
+ \end{center}
+ \vspace*{-0.5cm}
+{\LARGE {\bf Department of Artificial Intelligence and Data Science}}\\
+        [-3mm] {\large {\bf St. Joseph's College of Engineering and Technology, Palai}\\
+         [1mm] DECEMBER : 2023}
+
+\end{center}
+
+\newpage
+\thispagestyle{empty}
+
+\newpage
+\thispagestyle{empty}
+\addcontentsline{toc}{chapter}{\numberline{}Certificate}
+\begin{center}
+\normalsize{ST. JOSEPH’S COLLEGE OF ENGINEERING AND TECHNOLOGY, PALAI}\\[0.5cm]
+\normalsize
+ { DEPARTMENT OF ARTIFICIAL INTELLIGENCE AND DATA SCIENCE}\\[1.0cm]% Put your university logo here if you wish.
+   \begin{center}
+   \includegraphics[width=0.3\textwidth]{Images/SJCET_logo.png}
+   \end{center}
+{\large CERTIFICATE}\\[1.5cm]
+\end{center}
+\normalsize 
+This is to certify that the seminar report entitled {\bf $``$Exploring the CNN Learned Features using Generative Adversarial Networks$"$} submitted by { \bf Ajay T Shaju (SJC20AD004)} to the APJ Abdul Kalam Technological University in partial fulfillment of the requirements for the award of the Degree of Bachelor of Technology in Artificial Intelligence and Data Science is a bonafide record of the seminar carried out by him under my guidance and supervision.\vspace{1.3 cm}\\
+{\bf Seminar Guide}\hspace{8.2 cm}{\bf Seminar Coordinator}\\
+Dr.Deepa V\hspace{9.0 cm} Mr.Jacob Thomas\\
+Head of the Department\hspace{6.85 cm}Assistant Professor\hspace{2.6 cm}\\Department of AD\hspace{7.9 cm}Department of AD
+\vspace{1.3 cm}\\
+\begin{minipage}[t]{0.5\textwidth}
+\begin{flushleft}
+\setlength{\leftskip}{0pt} % Adjust the left margin
+\vspace{0.2 cm}
+Place: Choondacherry \\
+Date: 01-12-2023
+\end{flushleft}
+\end{minipage}%
+\begin{minipage}[t]{0.49\textwidth}
+\begin{flushright}
+\begin{tabular}{l}
+\textbf{Head of Department} \\
+Dr. Deepa V \\
+Associate Professor \\
+Department of AD
+\end{tabular}
+\end{flushright}
+\end{minipage}
+                
+\newpage
+\thispagestyle{empty}
+\addcontentsline{toc}{chapter}{\numberline{}Acknowledgement}
+\begin{center}
+  \vspace*{1cm}
+  \textbf{\large Acknowledgement}
+\end{center}
+I wish to record our indebtedness and thankfulness to all who helped us complete this seminar titled $"$Exploring the CNN Learned Features using Generative Adversarial Networks$"$. I would like to convey a special gratitude to Dr.~V.P. Devassia, Principal, SJCET, Palai, for the facilities. I express my sincere thankfulness to Dr. Deepa. V, Head of the department, Department of Artificial Intelligence \& Data Science for her cooperation and valuable suggestions. Also, I express my sincere thanks to the seminar coordinator Mr. Jacob Thomas for his helpful feedback and timely assistance.
+I am especially thankful to my guide, Dr. Deepa. V, Head of the department, Department of Artificial Intelligence \& Data Science for giving me valuable suggestions and critical inputs through guidance and support. I also extend my thanks to college lab technicians, my friends, and others who directly or indirectly helped me during this seminar work.
+ \\
+\begin{flushright}
+Ajay T Shaju
+\end{flushright}
+
+\newpage
+\thispagestyle{empty}
+\addcontentsline{toc}{chapter}{\numberline{}Abstract}
+\begin{center}
+  % \vspace*{0.5cm}
+  \textbf{\large Abstract}
+\end{center}
+Generative Adversarial Networks (GANs) are a type of deep learning model that can generate new data, such as images, text, and audio, or enhance the quality of existing data. As a result, they have emerged as a transformative technology in the fields of machine learning and computer vision. GANs are a relatively new technology, but they already had a significant impact on the field of machine learning. GANs have been used to generate realistic images of human faces, translate languages, and create new forms of art and music, serving as a gateway to Generative AI. The introductory GAN has a simple architectural complexity, making it a vibrant research field to explore and create powerful systems. Many research efforts related to GANs are ongoing, and one noteworthy research paper that showcases the versatility of GANs is referred as a case-study for this seminar study. This research work enhances the interpretability of Convolutional Neural Networks (CNNs) in medical imaging, specifically for Pulmonary Edema and Liver Fibrosis. FIGAN utilizes a Conditional GAN (CGAN) to synthesize images that reveal CNN's learned features, making it a functional approach to interpreting medical images. This seminar explores the fascinating world of GANs, delving into their architecture, challenges, and applications, and a recent use case of GANs in-depth, highlighting their significance in generating synthetic data with remarkable realism.
+
+%%%%%%%%    tableofcontents, listoffigures and listoftables       %%%%%%%%%
+%%%%%%%%        Comment if you do not have them                  %%%%%%%%%
+
+\tableofcontents
+\cleardoublepage
+\addcontentsline{toc}{chapter}{List of Abbreviations}
+\printnomenclature
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+
+\clearpage

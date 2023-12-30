@@ -1,0 +1,31 @@
+\nomenclatureentry{aPGAN@[{PGAN}]\begingroup Progressive Generative Adversarial Networks\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aWGAN@[{WGAN}]\begingroup Wasserstein Generative Adversarial Networks\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aSAGAN@[{SAGAN}]\begingroup Self-Attention Generative Adversarial Networks\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aCNN@[{CNN}]\begingroup Convolutional Neural Network\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aGAN@[{GAN}]\begingroup Generative Adversarial Network\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aML@[{ML}]\begingroup Machine Learning\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aDCGAN@[{DCGAN}]\begingroup Deep Convolutional Generative Adversarial Network\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aCGAN@[{CGAN}]\begingroup Conditional Generative Adversarial Networks\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aAI@[{AI}]\begingroup Artificial Intelligence\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aFIGAN@[{FIGAN}]\begingroup Feature Interpretation Using Generative Adversarial Networks\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aCT@[{CT}]\begingroup Computed Tomography\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aMRI@[{MRI}]\begingroup Magnetic Resonance Imaging\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aMNIST@[{MNIST}]\begingroup Modified National Institute of Standards and Technology\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aDCNN@[{DCNN}]\begingroup Deep Convolutional Neural Network\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aPCA@[{PCA}]\begingroup Principal Component Analysis\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aPLS@[{PLS}]\begingroup Partial Least Squares\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aGIF@[{GIF}]\begingroup Graphics Interchange Format\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aDL@[{DL}]\begingroup Deep Learning\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aNN@[{NN}]\begingroup Neural Network\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aVAE@[{VAE}]\begingroup Variational Autoencoders\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aHD@[{HD}]\begingroup High Definition\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aBNPP@[{BNPP}]\begingroup B-type Natriuretic Peptide\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aXAI@[{XAI}]\begingroup Explainable Artificial Intelligence\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aVG@[{VG}]\begingroup Visual Geometry\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aGrad-CAM@[{Grad-CAM}]\begingroup Gradient Weighted Class Activation Mapping\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aFID@[{FID}]\begingroup Fréchet Inception Distance\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aVAE@[{VAE}]\begingroup Variational Autoencoder\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aRBM@[{RBM}]\begingroup Restricted Boltzmann Machine\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aMCMC@[{MCMC}]\begingroup Markov Chain Monte Carlo\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aCAM@[{CAM}]\begingroup Class Activation Mapping\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aCIU@[{CIU}]\begingroup Contextual Importance And Utility\nomeqref {0.0.0}|nompageref}{1}
